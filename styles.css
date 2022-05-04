@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .card {
-  background-color: white;
+  background-color: #75c9b7;
   border: 1px solid #333;
   border-radius: 0.5rem;
   padding: 0.5rem;
   max-width: 300px;
   margin: 0 auto;
   animation: fade 250ms ease-in-out forwards;
-  background: white;
+  background: #75c9b7;
   border: 0 none;
   border-radius: 3px;
   box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
@@ -29,13 +30,11 @@
 }
 
 .form-group > label {
-  font-weight: bold;
-  font-size: 0.8em;
-  color: #333;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: normal;
   font-size: 13px;
-  color: #666;
-  margin-bottom: 20px;
+  color: #16123f;
+  /* margin-bottom: 20px; */
 }
 
 .form-group > input {
@@ -55,20 +54,16 @@
 }
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #679b9b;
+  border-color: #ffe26a;
   outline: none;
-  color: #637373;
+  color: #16163f;
 }
-.step-title {
-  margin: 0;
-  margin-bottom: 1rem;
-  text-align: center;
-}
+
 .action-button {
   width: 100px;
-  background: #ff9a76;
+  background: #ffe26a;
   font-weight: bold;
-  color: #fff;
+  color: #16123f;
   transition: 150ms;
   border: 0 none;
   border-radius: 1px;
@@ -85,7 +80,7 @@
   animation: slide 250ms 125ms ease-in-out both;
 }
 .center {
-  /* height: 100vh; */
+  height: 100vh;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -113,10 +108,13 @@
 }
 
 .step-title {
-  font-size: 15px;
+  margin: 0;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   color: #2c3e50;
-  margin-bottom: 10px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
 }
 .fs-subtitle {
   font-weight: normal;
