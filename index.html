@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body style="background-color: #8e9eab">
+    <div class="row center"><div class="col-md-6 header-banner"></div></div>
+    <div class="center row">
+      <div class="col-md-2 add"><p>Add Banner</p></div>
+      <div class="col-md-2 add"></div>
+      <div class="col-md-4">
+        <form data-multi-step class="multi-step-form" id="multistepsform">
+          <!-- <ul id="progressbar">
+        <li class="active">Account Setup</li>
+        <li>Personal Details</li>
+        <li>Social Profiles</li>
+      </ul> -->
+          <div class="card" data-step>
+            <h3 class="step-title">Details Page</h3>
+            <div class="form-group">
+              <label for="email">Customer ID</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="password">Serial No</label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <button type="button" class="action-button" data-next>Next</button>
+          </div>
+          <div class="card" data-step>
+            <h3 class="step-title">Verification</h3>
+            <div class="form-group">
+              <label for="address">Email</label>
+              <input
+                type="text"
+                name="address"
+                id="address"
+                value="abc@gmail.com"
+                disabled
+              />
+            </div>
+            <div class="form-group">
+              <label for="city">Phone</label>
+              <input
+                type="text"
+                name="city"
+                id="city"
+                value="911xffjsd90"
+                disabled
+              />
+            </div>
+            <div class="form-group">
+              <label for="zipcode">OTP</label>
+              <input type="text" name="zipcode" id="zipcode" />
+            </div>
+            <button type="button" class="action-button" data-previous>
+              Previous
+            </button>
+            <button type="button" class="action-button" data-next>Next</button>
+          </div>
+          <div class="card" data-step>
+            <h3 class="step-title">Redirects to result page</h3>
+            <!-- <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input type="text" name="firstName" id="firstName" />
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input type="text" name="lastName" id="lastName" />
+        </div> -->
+            <button type="button" class="action-button" data-previous>
+              Previous
+            </button>
+            <button type="submit" class="action-button">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-2 add"><p>Hello</p></div>
+      <div class="col-md-2 add"></div>
+    </div>
+  </body>
+</html>
