@@ -1,13 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  height: 100vh;
+  background: #005A96;
+  background-color: linear-gradient(333.43deg, #0085DE 16.67%, #005A96 100%);
+  background-image: url('./background.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-image: none;
+  }
+}
+
 .card {
-  background-color: #75c9b7;
+  background-color: #79B733;
   border: 1px solid #333;
   border-radius: 0.5rem;
   padding: 0.5rem;
   max-width: 300px;
   margin: 0 auto;
   animation: fade 250ms ease-in-out forwards;
-  background: #75c9b7;
+  background: #79B733;
   border: 0 none;
   border-radius: 3px;
   box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
@@ -30,7 +50,7 @@
 }
 
 .form-group > label {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: normal;
   font-size: 13px;
   color: #16123f;
@@ -87,10 +107,10 @@
   align-items: center;
 }
 .multi-step-form {
-  width: 400px;
-  /* margin: 200px auto; */
+  width: 350px;
   text-align: center;
   position: relative;
+  margin-top: 150px;
 }
 .add {
   background-image: url('add.png');
